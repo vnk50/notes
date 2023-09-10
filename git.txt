@@ -22,4 +22,4 @@ Git branching
     Hot Fix branch 
 Concepts 
     Merge conflicts -
-    Forking - other people repo > changes > PR in base of original repo 
+    Forking - other people repo > changes > PR in base of original repo.
