@@ -223,4 +223,4 @@ chmod 600 ~/.ssh/authorized_keys
 scp -i <ssh-private-key> -r <directory to transfer> <username>@<IP/FQDN>:<path>
 ```
 
--
+
