@@ -1,0 +1,9 @@
+Golang
+Python
+Git
+Kubernetes
+Docker 
+Ansible
+Terraform
+Azure
+AWS
