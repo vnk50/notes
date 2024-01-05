@@ -1,6 +1,6 @@
 # Networking
 
-![Untitled](networking/Untitled.png)
+
 
 ## General
 
