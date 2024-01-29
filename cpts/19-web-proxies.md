@@ -1,0 +1,14 @@
+- Foxy Proxy
+- Burpsuite intercept repeater
+- URL Encoding
+    - Spaces: May indicate the end of request data if not encoded
+    - &: Otherwise interpreted as a parameter delimiter
+    - #: Otherwise interpreted as a fragment identifier
+- Proxying Tools
+    - Proxychains `/etc/proxychains.conf` `http 127.0.0.1 8080`
+    - un-commenting quiet_mode.
+    - `nmap --proxies [http://127.0.0.1:8080](http://127.0.0.1:8080/) SERVER_IP -pPORT -Pn -sC`
+    - Metasploit `set PROXIES HTTP:127.0.0.1:8080`
+- Web fuzzer
+    - This may also act as an alternative for many of the CLI-based fuzzers we use, like ffuf, dirbuster, gobuster, wfuzz, among others.
+    - Burp Intruder
