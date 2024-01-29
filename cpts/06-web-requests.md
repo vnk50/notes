@@ -8,13 +8,13 @@
 - We enter a Fully Qualified Domain Name (FQDN) as a Uniform Resource Locator (URL) to reach the desired website
 - URL
 
-![Untitled](06-web-requests/Untitled.png)
+![Untitled](images/06-web-requests/Untitled.png)
 
 - if no path is specified, the server returns the default index (e.g. index.html)
 - Queries separated by `&`
 - Fragments are processed by the browsers on the client-side to locate sections within the primary resource
 
-![Untitled](06-web-requests/Untitled%201.png)
+![Untitled](images/06-web-requests/Untitled%201.png)
 
 - `/etc/hosts` - browser checks this first, we can manually add records to DNS resolution
 - browser asks for root / path , servers return index when request for / is received
@@ -23,7 +23,7 @@
 
 - Note: Although the data transferred through the HTTPS protocol may be encrypted, the request may still reveal the visited URL if it contacted a clear-text DNS server. For this reason, it is recommended to utilize encrypted DNS servers (e.g. 8.8.8.8 or 1.1.1.1), or utilize a VPN service to ensure all traffic is properly encrypted.
 
-![Untitled](06-web-requests/Untitled%202.png)
+![Untitled](images/06-web-requests/Untitled%202.png)
 
 ## cURL
 
@@ -32,14 +32,14 @@
 
 ## HTTP Request
 
-![Untitled](06-web-requests/Untitled%203.png)
+![Untitled](images/06-web-requests/Untitled%203.png)
 
 - The headers are terminated with a new line, which is necessary for the server to validate the request.
 - HTTP version 1.X sends requests as clear-text, and uses a new-line character to separate different fields and different requests. HTTP version 2.X, on the other hand, sends requests as binary data in a dictionary form.
 
 ## HTTP Response
 
-![Untitled](06-web-requests/Untitled%204.png)
+![Untitled](images/06-web-requests/Untitled%204.png)
 
 ### Browser DevTools
 

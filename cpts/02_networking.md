@@ -64,7 +64,7 @@
 
 ## Networking models
 
-![Untitled](networking/Untitled%201.png)
+![Untitled](images/02-networking/Untitled%201.png)
 
 - OSI Model
 - TCP/IP  Model
@@ -83,7 +83,7 @@
     - In a layered system, devices in a layer exchange data in a different format called a protocol data unit (PDU)
     - During the transmission, each layer adds a header to the PDU from the upper layer, which controls and identifies the packet. This process is called encapsulation
 
-![Untitled](networking/Untitled%202.png)
+![Untitled](images/02-networking/Untitled%202.png)
 
 ## Network Layer
 

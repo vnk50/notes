@@ -32,7 +32,7 @@
     - child domains in forest A do not necessarily have trusts established with the child domains in forest B
     - To allow direct communication from admin.dev.freightlogistics.local and wh.corp.inlanefreight.local, another trust would need to be set up.
 
-![Untitled](05_active_directory/Untitled.png)
+![Untitled](images/05_active_directory/Untitled.png)
 
 ## AD Terminologies
 
@@ -165,7 +165,7 @@
     4. The TGS is encrypted with the NTLM password hash of the service or computer account in whose context the service instance is running and is delivered to the user in the TGS_REP.
     5. The user presents the TGS to the service, and if it is valid, the user is permitted to connect to the resource (AP_REQ).
     
-    ![Untitled](05_active_directory/Untitled%201.png)
+    ![Untitled](images/05_active_directory/Untitled%201.png)
     
     ### DNS
     
@@ -173,7 +173,7 @@
     - AD maintains a database of services running on the network in the form of service records (SRV).
     - DNS uses TCP and UDP port 53. UDP port 53 is the default, but it falls back to TCP when no longer able to communicate and DNS messages are larger than 512 bytes.
     
-    ![Untitled](05_active_directory/Untitled%202.png)
+    ![Untitled](images/05_active_directory/Untitled%202.png)
     
 - Forward DNS Lookup - `nslookup name`
 - Reverse DNS Lookup - `nslookup ip`
@@ -186,7 +186,7 @@
 - LDAP is how systems in the network environment can "speak" to AD.
 - An LDAP session begins by first connecting to an LDAP server, also known as a Directory System Agent. The Domain Controller in AD actively listens for LDAP requests, such as security authentication requests.
 
-![Untitled](05_active_directory/Untitled%203.png)
+![Untitled](images/05_active_directory/Untitled%203.png)
 
 - AD LDAP Authentication
     - LDAP is set up to authenticate credentials against AD using a "BIND" operation to set the authentication state for an LDAP session. There are two types of LDAP authentication.
@@ -210,7 +210,7 @@
 - NT LAN Manager (NTLM) hashes
     - challenge response
 
-![Untitled](05_active_directory/Untitled%204.png)
+![Untitled](images/05_active_directory/Untitled%204.png)
 
 ```markdown
 Rachel:500:aad3c435b514a4eeaad3b935b51304fe:e46b9e548fa0d122de7f59fb6d48eaa2:::
@@ -352,7 +352,7 @@ whenCreated                     : 10/27/2021 8:14:34 AM
 
 ## Security in Active Directory
 
-![Untitled](05_active_directory/Untitled%205.png)
+![Untitled](images/05_active_directory/Untitled%205.png)
 
 - The Microsoft Local Administrator Password Solution (LAPS) is used to randomize and rotate local administrator passwords on Windows hosts and prevent lateral movement.
 - Audit Policy Settings (Logging and Monitoring)
